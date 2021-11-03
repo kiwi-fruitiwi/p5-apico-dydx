@@ -166,7 +166,7 @@ let tree, bee, beehive
 
 function preload() {
     font = loadFont('fonts/Meiryo-01.ttf')
-    cursor = loadImage('img/classically trained 83x5.png')
+    cursor = loadImage('img/banana.png')
     environment = loadImage('img/environment-640x360.png')
     beehive = loadImage('img/apico-12x12-beehive.png')
 }
@@ -178,7 +178,7 @@ function setup() {
 
     noSmooth()
     noCursor()
-    big_cursor = scale_image(cursor, 6)
+    big_cursor = scale_image(cursor, 1)
     // tree = scale_image(generate_tree(13, 24), 3)
     bee = scale_image(generate_bee(), 6)
     // bee.save('saved-image', 'png');
